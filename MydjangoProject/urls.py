@@ -19,4 +19,6 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('blog/', include('wikiface.urls')),
+    path('blog/inicio', include('wikiface.urls')),
+    path('stream', include('wikiface.urls')),
 ]
