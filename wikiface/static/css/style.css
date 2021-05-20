@@ -12,7 +12,11 @@
     border: none;
     border-radius: 1.5rem;
     padding: 2%;
+<<<<<<< HEAD
     width: 90%;
+=======
+    width: 60%;
+>>>>>>> d823cfd73d9ab26ce1d8e24b120a4af399bf981a
     background: #f8f9fa;
     font-weight: bold;
     color: #383d41;
@@ -28,7 +32,11 @@
 .register-left img{
     margin-top: 15%;
     margin-bottom: 5%;
+<<<<<<< HEAD
     width: 45%;
+=======
+    width: 25%;
+>>>>>>> d823cfd73d9ab26ce1d8e24b120a4af399bf981a
     -webkit-animation: mover 2s infinite  alternate;
     animation: mover 1s infinite  alternate;
 }
@@ -49,16 +57,28 @@
     padding: 10%;
     margin-top: 10%;
 }
+<<<<<<< HEAD
 .btniniciarCamara{
     float: center;
+=======
+.btnRegister{
+    float: right;
+>>>>>>> d823cfd73d9ab26ce1d8e24b120a4af399bf981a
     margin-top: 10%;
     border: none;
     border-radius: 1.5rem;
     padding: 2%;
+<<<<<<< HEAD
     background: #ff914d;
     color: #fff;
     font-weight: 600;
     width: 80%;
+=======
+    background: #0062cc;
+    color: #fff;
+    font-weight: 600;
+    width: 50%;
+>>>>>>> d823cfd73d9ab26ce1d8e24b120a4af399bf981a
     cursor: pointer;
 }
 .register .nav-tabs{

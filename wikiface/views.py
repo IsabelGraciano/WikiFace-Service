@@ -7,6 +7,7 @@ import time
 
 def home(request):
     return render(request, 'wikiface/ingresar.html')
+<<<<<<< HEAD
 
 def inicio(request):
     return render(request, 'wikiface/ingresar.html')
@@ -36,3 +37,5 @@ def dynamic_stream(request,stream_path="video"):
         return StreamingHttpResponse(get_frame(),content_type="multipart/x-mixed-replace;boundary=frame")
     except :
         return "error"
+=======
+>>>>>>> d823cfd73d9ab26ce1d8e24b120a4af399bf981a
